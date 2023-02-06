@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0000FF"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/lnno_log" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="We develop Software of Different Applications\n"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Desktop Applications"
+                android:gravity="center"
+                android:drawableLeft="@drawable/inno_desk"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile Applications"
+                android:drawableLeft="@drawable/inno_mob"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Web Applications"
+                android:drawableLeft="@drawable/inno_web"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content"
+                android:text="Embedded Systems"
+                android:drawableLeft="@drawable/inno_ebedd"
+                android:layout_weight="1"
+                android:gravity="center"
+                />
+
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:includeFontPadding="true"
+                android:lineSpacingMultiplier="1.1"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:text="Hardware Configurations and Networking\n\nContacts:\n+256705727318
+\n+256789105998
+"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

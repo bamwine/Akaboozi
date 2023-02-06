@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_player_header"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="6dip">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button android:id="@+id/radoi"
+                style="@style/HomeButton"
+                android:text="Akaboozi Fm"
+                android:drawableTop="@drawable/radio"/>
+            <Button android:id="@+id/lineup"
+                style="@style/HomeButton"
+                android:text="Program Lineup"
+                android:drawableTop="@drawable/rprogm"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button android:id="@+id/events"
+                style="@style/HomeButton"
+                android:text="Events"
+                android:drawableTop="@drawable/revent"/>
+
+            <Button android:id="@+id/social"
+                style="@style/HomeButton"
+                android:text="Social Network"
+                android:drawableTop="@drawable/rnet"/>
+
+            <Button android:id="@+id/contact"
+                style="@style/HomeButton"
+                android:text="Contact"
+                android:drawableTop="@drawable/rcont"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button android:id="@+id/lines"
+                style="@style/HomeButton"
+                android:text="Studio Lines"
+                android:drawableTop="@drawable/rstudio"/>
+            <Button android:id="@+id/about"
+                style="@style/HomeButton"
+                android:text="About"
+                android:drawableTop="@drawable/rabout"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

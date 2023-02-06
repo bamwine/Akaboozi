@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#07994c"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content"
+                android:text="Akaboozi Mobi"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/aka_log"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                />
+
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:includeFontPadding="true"
+                android:lineSpacingMultiplier="1.1"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:text="\n\nThe application aggregates all listeners to one online steaming platform regardless of the different frequency media of the radio.\n\n Its purpose will range from Marketing, advertising, interactions as per the user and the radio management. \n\n Accessibility is online –internet aided and downloaded from google play store.\n\n
+The app will have features like:\n
+Program line up\n
+Events organized by the radio\n
+Social network sharing and so many others
+
+"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
